@@ -1,0 +1,21 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lٗۥۛ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public enum EnumC17543l implements InterfaceC12882l {
+    /* JADX INFO: Fake field, exist only in values array */
+    UNSPECIFIED_VERTICAL_ALIGNMENT(0),
+    TOP(1),
+    CENTER_VERTICALLY(2),
+    BOTTOM(3),
+    UNRECOGNIZED(-1);
+
+
+    /* JADX INFO: renamed from: lٌؘؒ, reason: contains not printable characters */
+    public final int f34163l;
+
+    EnumC17543l(int i) {
+        this.f34163l = i;
+    }
+}

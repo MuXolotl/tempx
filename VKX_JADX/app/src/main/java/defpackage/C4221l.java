@@ -1,0 +1,37 @@
+package defpackage;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+/* JADX INFO: renamed from: lؖٚۘ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C4221l extends AbstractC0283l {
+
+    /* JADX INFO: renamed from: lؓۡؑ, reason: contains not printable characters */
+    public final /* synthetic */ C13920l f8648l;
+
+    /* JADX INFO: renamed from: lؕؕؒ, reason: contains not printable characters */
+    public int f8649l;
+
+    /* JADX INFO: renamed from: lٍۣۢ, reason: contains not printable characters */
+    public C10700l f8650l;
+
+    /* JADX INFO: renamed from: lٍۥۗ, reason: contains not printable characters */
+    public C10700l f8651l;
+
+    /* JADX INFO: renamed from: lَٕ۠, reason: contains not printable characters */
+    public /* synthetic */ Object f8652l;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C4221l(C13920l c13920l, InterfaceC14029l interfaceC14029l) {
+        super(interfaceC14029l);
+        this.f8648l = c13920l;
+    }
+
+    @Override // defpackage.AbstractC12050l
+    public final Object Signature(Object obj) {
+        this.f8652l = obj;
+        this.f8649l |= RecyclerView.UNDEFINED_DURATION;
+        return C13920l.loadAd(this.f8648l, this);
+    }
+}

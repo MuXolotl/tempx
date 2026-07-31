@@ -1,0 +1,22 @@
+package defpackage;
+
+import android.view.View;
+import android.widget.ProgressBar;
+
+/* JADX INFO: renamed from: lٛٝ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C18432l implements InterfaceC0589l {
+
+    /* JADX INFO: renamed from: lٌؘؒ, reason: contains not printable characters */
+    public final ProgressBar f36002l;
+
+    public C18432l(ProgressBar progressBar) {
+        this.f36002l = progressBar;
+    }
+
+    @Override // defpackage.InterfaceC0589l
+    public final View getRoot() {
+        return this.f36002l;
+    }
+}

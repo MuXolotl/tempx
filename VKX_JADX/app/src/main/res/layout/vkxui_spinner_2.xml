@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/abl"
+    android:background="@null"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:elevation="0dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageView
+            android:id="@+id/back"
+            android:background="?attr/selectableItemBackground"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:src="@drawable/ic_arrow_back_24"
+            android:contentDescription="@string/talkback_back"
+            android:paddingHorizontal="16dp"
+            app:tint="?attr/text_primary"/>
+        <TextView
+            android:textColor="?attr/text_primary"
+            android:gravity="center_vertical"
+            android:id="@+id/spinner"
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:drawablePadding="4dp"
+            android:fontFamily="@font/vk_sans_display_bold"
+            android:layout_marginEnd="12dp"
+            android:layout_toEndOf="@+id/back"
+            app:drawableEndCompat="@drawable/arrow_down"
+            app:drawableTint="?attr/colorAccent"
+            style="@style/TextAppearance.Material3.TitleLarge"/>
+        <androidx.appcompat.widget.ActionMenuView
+            android:id="@+id/actions"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</com.google.android.material.appbar.AppBarLayout>

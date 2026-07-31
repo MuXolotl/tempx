@@ -1,0 +1,64 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lًؚٗ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class C16966l implements InterfaceC13593l {
+    private static final InterfaceC18035l descriptor;
+    public static final C16966l yandex;
+
+    static {
+        C16966l c16966l = new C16966l();
+        yandex = c16966l;
+        C13637l c13637l = new C13637l("ua.itaysonlab.vkxreborn.compose_fragments.ny.Ny26V2Screen.JsonStorageValue", c16966l, 1);
+        c13637l.smaato("id", false);
+        descriptor = c13637l;
+    }
+
+    @Override // defpackage.InterfaceC13593l
+    public final InterfaceC16588l[] amazon() {
+        return new InterfaceC16588l[]{C1313l.yandex};
+    }
+
+    @Override // defpackage.InterfaceC16588l
+    public final void crashlytics(InterfaceC17739l interfaceC17739l, Object obj) {
+        InterfaceC18035l interfaceC18035l = descriptor;
+        InterfaceC0039l interfaceC0039lCrashlytics = interfaceC17739l.crashlytics(interfaceC18035l);
+        ((AbstractC4072l) interfaceC0039lCrashlytics).signatures(0, ((C13806l) obj).yandex, interfaceC18035l);
+        interfaceC0039lCrashlytics.yandex(interfaceC18035l);
+    }
+
+    @Override // defpackage.InterfaceC16588l
+    public final Object loadAd(InterfaceC10726l interfaceC10726l) {
+        InterfaceC18035l interfaceC18035l = descriptor;
+        InterfaceC14988l interfaceC14988lCrashlytics = interfaceC10726l.crashlytics(interfaceC18035l);
+        boolean z = true;
+        int i = 0;
+        int iSubscription = 0;
+        while (z) {
+            int iAdmob = interfaceC14988lCrashlytics.admob(interfaceC18035l);
+            if (iAdmob == -1) {
+                z = false;
+            } else {
+                if (iAdmob != 0) {
+                    C8936l.mopub(iAdmob);
+                    return null;
+                }
+                iSubscription = interfaceC14988lCrashlytics.subscription(interfaceC18035l, 0);
+                i = 1;
+            }
+        }
+        interfaceC14988lCrashlytics.yandex(interfaceC18035l);
+        return new C13806l(i, iSubscription);
+    }
+
+    @Override // defpackage.InterfaceC16588l
+    public final InterfaceC18035l purchase() {
+        return descriptor;
+    }
+
+    @Override // defpackage.InterfaceC13593l
+    public final InterfaceC16588l[] yandex() {
+        return AbstractC3872l.yandex;
+    }
+}

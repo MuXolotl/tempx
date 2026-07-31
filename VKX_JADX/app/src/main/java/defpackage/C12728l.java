@@ -1,0 +1,19 @@
+package defpackage;
+
+import android.graphics.Bitmap;
+
+/* JADX INFO: renamed from: lؚّٝ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C12728l implements InterfaceC14142l {
+    public final Bitmap yandex;
+
+    public C12728l(Bitmap bitmap) {
+        this.yandex = bitmap;
+    }
+
+    @Override // defpackage.InterfaceC14142l
+    public final Object yandex(C6563l c6563l) {
+        return new C9245l(new C13028l(this.yandex), false, 2);
+    }
+}

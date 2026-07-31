@@ -1,0 +1,12 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lٌ٘ۦ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes3.dex */
+public final class C17800l {
+    public final /* synthetic */ C10844l yandex;
+
+    public C17800l(C10844l c10844l) {
+        this.yandex = c10844l;
+    }
+}

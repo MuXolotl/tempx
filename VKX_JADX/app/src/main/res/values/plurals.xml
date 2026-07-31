@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="albums">
+        <item quantity="one">%1$d album</item>
+        <item quantity="few">%1$d albums</item>
+        <item quantity="other">%1$d albums</item>
+    </plurals>
+    <plurals name="artists">
+        <item quantity="one">%1$d artist</item>
+        <item quantity="few">%1$d artists</item>
+        <item quantity="other">%1$d artists</item>
+    </plurals>
+    <plurals name="cache_entry_desc">
+        <item quantity="zero">no cached tracks</item>
+        <item quantity="one">%d cached track</item>
+        <item quantity="other">%d cached tracks</item>
+    </plurals>
+    <plurals name="date_ago_mins">
+        <item quantity="one">%,d minute ago</item>
+        <item quantity="few">%,d minutes ago</item>
+        <item quantity="other">%,d minutes ago</item>
+    </plurals>
+    <plurals name="date_ago_secs">
+        <item quantity="one">%,d second ago</item>
+        <item quantity="few">%,d seconds ago</item>
+        <item quantity="other">%,d seconds ago</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="music_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="music_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="tracks">
+        <item quantity="one">%1$d track</item>
+        <item quantity="few">%1$d tracks</item>
+        <item quantity="other">%1$d tracks</item>
+    </plurals>
+    <plurals name="tracks_selected">
+        <item quantity="one">%1$d track selected</item>
+        <item quantity="few">%1$d tracks selected</item>
+        <item quantity="other">%1$d tracks selected</item>
+    </plurals>
+</resources>

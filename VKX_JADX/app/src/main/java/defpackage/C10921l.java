@@ -1,0 +1,12 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lٌُٗ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C10921l implements InterfaceC8289l {
+    public final InterfaceC8289l yandex;
+
+    public C10921l(InterfaceC8289l interfaceC8289l) {
+        this.yandex = interfaceC8289l;
+    }
+}

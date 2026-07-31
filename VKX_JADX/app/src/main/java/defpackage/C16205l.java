@@ -1,0 +1,32 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lٖٖؗ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C16205l {
+    public final C1351l crashlytics;
+    public final long loadAd;
+    public final long yandex;
+
+    public C16205l(long j, long j2, C1351l c1351l) {
+        this.yandex = j;
+        this.loadAd = j2;
+        this.crashlytics = c1351l;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof C16205l)) {
+            return false;
+        }
+        C16205l c16205l = (C16205l) obj;
+        return C9735l.crashlytics(this.yandex, c16205l.yandex) && C9735l.crashlytics(this.loadAd, c16205l.loadAd) && this.crashlytics.equals(c16205l.crashlytics);
+    }
+
+    public final int hashCode() {
+        int i = C9735l.smaato;
+        return this.crashlytics.hashCode() + AbstractC1757l.m1038strictfp(C10882l.yandex(this.yandex) * 31, this.loadAd, 31);
+    }
+}

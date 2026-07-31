@@ -1,0 +1,177 @@
+package defpackage;
+
+import ealvatag.tag.datatype.DataTypes;
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+/* JADX INFO: renamed from: lٟ٘ؕ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes3.dex */
+public final class C18098l {
+    public static final C3624l Signature;
+    public static final C3624l ad;
+    public static final C3624l adcel;
+    public static final C3624l admob;
+    public static final C3624l ads;
+    public static final C2312l amazon;
+    public static final C3624l billing;
+    public static final C2312l crashlytics;
+    public static final C3624l firebase;
+    public static final C3624l isPro;
+    public static final C3624l license;
+    public static final C2312l loadAd;
+    public static final C3624l metrica;
+    public static final C3624l mopub;
+    public static final C3624l pro;
+    public static final C2312l purchase;
+    public static final C3624l remoteconfig;
+    public static final C3624l smaato;
+    public static final C3624l startapp;
+    public static final C3624l subs;
+    public static final Set subscription;
+    public static final Set tapsense;
+    public static final C3624l vip;
+    public static final C2312l yandex;
+
+    static {
+        C2312l c2312l = new C2312l("kotlin");
+        yandex = c2312l;
+        C2312l c2312lYandex = c2312l.yandex(C3498l.purchase("reflect"));
+        loadAd = c2312lYandex;
+        c2312l.yandex(C3498l.purchase("experimental"));
+        C2312l c2312lYandex2 = c2312l.yandex(C3498l.purchase("collections"));
+        crashlytics = c2312lYandex2;
+        c2312l.yandex(C3498l.purchase("sequences"));
+        C2312l c2312lYandex3 = c2312l.yandex(C3498l.purchase("ranges"));
+        C2312l c2312lYandex4 = c2312l.yandex(C3498l.purchase("jvm"));
+        c2312l.yandex(C3498l.purchase("js"));
+        c2312l.yandex(C3498l.purchase("annotations")).yandex(C3498l.purchase("jvm"));
+        c2312lYandex4.yandex(C3498l.purchase("internal"));
+        c2312lYandex4.yandex(C3498l.purchase("functions"));
+        C2312l c2312lYandex5 = c2312l.yandex(C3498l.purchase("annotation"));
+        C2312l c2312lYandex6 = c2312l.yandex(C3498l.purchase("internal"));
+        c2312lYandex6.yandex(C3498l.purchase("ir"));
+        C2312l c2312lYandex7 = c2312l.yandex(C3498l.purchase("coroutines"));
+        c2312lYandex7.yandex(C3498l.purchase("intrinsics"));
+        amazon = c2312l.yandex(C3498l.purchase("enums"));
+        c2312l.yandex(C3498l.purchase("contracts"));
+        C2312l c2312lYandex8 = c2312l.yandex(C3498l.purchase("concurrent")).yandex(C3498l.purchase("atomics"));
+        purchase = c2312lYandex8;
+        c2312l.yandex(C3498l.purchase("test"));
+        c2312l.yandex(C3498l.purchase("text"));
+        AbstractC8669l.m2407import(new C2312l[]{c2312l, c2312lYandex2, c2312lYandex3, c2312lYandex5});
+        AbstractC8669l.m2407import(new C2312l[]{c2312l, c2312lYandex2, c2312lYandex3, c2312lYandex5, c2312lYandex, c2312lYandex6, c2312lYandex7, c2312lYandex8});
+        AbstractC7209l.crashlytics("Nothing");
+        billing = AbstractC7209l.crashlytics("Unit");
+        mopub = AbstractC7209l.crashlytics("Any");
+        admob = AbstractC7209l.crashlytics("Enum");
+        AbstractC7209l.crashlytics("Annotation");
+        subs = AbstractC7209l.crashlytics("Array");
+        C3624l c3624lCrashlytics = AbstractC7209l.crashlytics("Boolean");
+        isPro = c3624lCrashlytics;
+        C3624l c3624lCrashlytics2 = AbstractC7209l.crashlytics("Char");
+        C3624l c3624lCrashlytics3 = AbstractC7209l.crashlytics("Byte");
+        C3624l c3624lCrashlytics4 = AbstractC7209l.crashlytics("Short");
+        C3624l c3624lCrashlytics5 = AbstractC7209l.crashlytics("Int");
+        firebase = c3624lCrashlytics5;
+        C3624l c3624lCrashlytics6 = AbstractC7209l.crashlytics("Long");
+        smaato = c3624lCrashlytics6;
+        C3624l c3624lCrashlytics7 = AbstractC7209l.crashlytics("Float");
+        C3624l c3624lCrashlytics8 = AbstractC7209l.crashlytics("Double");
+        remoteconfig = AbstractC7209l.admob(c3624lCrashlytics3);
+        vip = AbstractC7209l.admob(c3624lCrashlytics4);
+        metrica = AbstractC7209l.admob(c3624lCrashlytics5);
+        startapp = AbstractC7209l.admob(c3624lCrashlytics6);
+        AbstractC7209l.crashlytics("CharSequence");
+        adcel = AbstractC7209l.crashlytics("String");
+        AbstractC7209l.crashlytics("Throwable");
+        AbstractC7209l.crashlytics("Cloneable");
+        AbstractC7209l.mopub("KProperty");
+        AbstractC7209l.mopub("KMutableProperty");
+        AbstractC7209l.mopub("KProperty0");
+        AbstractC7209l.mopub("KMutableProperty0");
+        AbstractC7209l.mopub("KProperty1");
+        AbstractC7209l.mopub("KMutableProperty1");
+        AbstractC7209l.mopub("KProperty2");
+        AbstractC7209l.mopub("KMutableProperty2");
+        ads = AbstractC7209l.mopub("KFunction");
+        AbstractC7209l.mopub("KClass");
+        AbstractC7209l.mopub("KCallable");
+        AbstractC7209l.mopub("KType");
+        AbstractC2130l.admob(C3498l.purchase("Sequence")).yandex.crashlytics();
+        AbstractC7209l.crashlytics("Comparable");
+        AbstractC7209l.crashlytics(DataTypes.OBJ_NUMBER);
+        AbstractC7209l.crashlytics("Function");
+        AbstractC2130l.admob(C3498l.purchase("SuspendFunction")).yandex.crashlytics();
+        Set setM2407import = AbstractC8669l.m2407import(new C3624l[]{c3624lCrashlytics, c3624lCrashlytics2, c3624lCrashlytics3, c3624lCrashlytics4, c3624lCrashlytics5, c3624lCrashlytics6, c3624lCrashlytics7, c3624lCrashlytics8});
+        subscription = setM2407import;
+        AbstractC8669l.m2407import(new C3624l[]{c3624lCrashlytics3, c3624lCrashlytics4, c3624lCrashlytics5, c3624lCrashlytics6});
+        Set set = setM2407import;
+        int iFirebase = AbstractC2200l.firebase(AbstractC14055l.billing(set, 10));
+        if (iFirebase < 16) {
+            iFirebase = 16;
+        }
+        LinkedHashMap linkedHashMap = new LinkedHashMap(iFirebase);
+        for (Object obj : set) {
+            linkedHashMap.put(obj, AbstractC7209l.billing(((C3624l) obj).billing()));
+        }
+        AbstractC7209l.purchase(linkedHashMap);
+        Set setM2407import2 = AbstractC8669l.m2407import(new C3624l[]{remoteconfig, vip, metrica, startapp});
+        tapsense = setM2407import2;
+        Set set2 = setM2407import2;
+        int iFirebase2 = AbstractC2200l.firebase(AbstractC14055l.billing(set2, 10));
+        LinkedHashMap linkedHashMap2 = new LinkedHashMap(iFirebase2 >= 16 ? iFirebase2 : 16);
+        for (Object obj2 : set2) {
+            linkedHashMap2.put(obj2, AbstractC7209l.billing(((C3624l) obj2).billing()));
+        }
+        AbstractC7209l.purchase(linkedHashMap2);
+        Set set3 = subscription;
+        Set set4 = tapsense;
+        LinkedHashSet linkedHashSetMopub = AbstractC9905l.mopub(set3, set4);
+        C3624l c3624l = adcel;
+        AbstractC9905l.admob(linkedHashSetMopub, c3624l);
+        C3498l c3498lPurchase = C3498l.purchase("Continuation");
+        C2312l c2312l2 = C2312l.crashlytics;
+        AbstractC2130l.admob(c3498lPurchase).yandex.crashlytics();
+        AbstractC7209l.amazon("Iterator");
+        AbstractC7209l.amazon("Iterable");
+        AbstractC7209l.amazon("Collection");
+        AbstractC7209l.amazon("List");
+        AbstractC7209l.amazon("ListIterator");
+        AbstractC7209l.amazon("Set");
+        C3624l c3624lAmazon = AbstractC7209l.amazon("Map");
+        AbstractC7209l.amazon("AbstractMap");
+        AbstractC7209l.amazon("MutableIterator");
+        AbstractC7209l.amazon("CharIterator");
+        AbstractC7209l.amazon("MutableIterable");
+        AbstractC7209l.amazon("MutableCollection");
+        Signature = AbstractC7209l.amazon("MutableList");
+        AbstractC7209l.amazon("MutableListIterator");
+        license = AbstractC7209l.amazon("MutableSet");
+        C3624l c3624lAmazon2 = AbstractC7209l.amazon("MutableMap");
+        pro = c3624lAmazon2;
+        c3624lAmazon.amazon(C3498l.purchase("Entry"));
+        c3624lAmazon2.amazon(C3498l.purchase("MutableEntry"));
+        AbstractC7209l.crashlytics("Result");
+        AbstractC2130l.admob(C3498l.purchase("IntRange")).yandex.crashlytics();
+        AbstractC2130l.admob(C3498l.purchase("LongRange")).yandex.crashlytics();
+        AbstractC2130l.admob(C3498l.purchase("CharRange")).yandex.crashlytics();
+        AbstractC2130l.admob(C3498l.purchase("AnnotationRetention")).yandex.crashlytics();
+        AbstractC2130l.admob(C3498l.purchase("AnnotationTarget")).yandex.crashlytics();
+        AbstractC7209l.crashlytics("DeprecationLevel");
+        ad = new C3624l(amazon, C3498l.purchase("EnumEntries"));
+        C3624l c3624lLoadAd = AbstractC7209l.loadAd("AtomicBoolean");
+        C3624l c3624lLoadAd2 = AbstractC7209l.loadAd("AtomicInt");
+        C3624l c3624lLoadAd3 = AbstractC7209l.loadAd("AtomicLong");
+        AbstractC7209l.loadAd("AtomicReference");
+        C8195l c8195l = new C8195l(isPro, c3624lLoadAd);
+        C3624l c3624l2 = firebase;
+        C8195l c8195l2 = new C8195l(c3624l2, c3624lLoadAd2);
+        C3624l c3624l3 = smaato;
+        AbstractC8676l.remoteconfig(c8195l, c8195l2, new C8195l(c3624l3, c3624lLoadAd3));
+        AbstractC7209l.loadAd("AtomicArray");
+        AbstractC8676l.remoteconfig(new C8195l(c3624l2, AbstractC7209l.loadAd("AtomicIntArray")), new C8195l(c3624l3, AbstractC7209l.loadAd("AtomicLongArray")));
+        AbstractC9905l.admob(AbstractC9905l.admob(AbstractC9905l.admob(AbstractC9905l.admob(AbstractC9905l.mopub(set3, set4), c3624l), billing), mopub), admob);
+    }
+}

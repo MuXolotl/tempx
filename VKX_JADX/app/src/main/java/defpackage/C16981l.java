@@ -1,0 +1,44 @@
+package defpackage;
+
+import kotlin.Metadata;
+
+/* JADX INFO: renamed from: lًُٗ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+@Metadata(d1 = {"\u0000\u000e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b\u0082\b\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001¨\u0006\u0003"}, d2 = {"Llًُٗ;", "Llَّؓ;", "Llُؖؔ;", "ui"}, k = 1, mv = {2, 1, 0}, xi = 48)
+final /* data */ class C16981l extends AbstractC12338l {
+
+    /* JADX INFO: renamed from: lٌؘؒ, reason: contains not printable characters */
+    public final C4478l f33103l;
+
+    public C16981l(C4478l c4478l) {
+        this.f33103l = c4478l;
+    }
+
+    @Override // defpackage.AbstractC12338l
+    public final void admob(AbstractC14971l abstractC14971l) {
+        ((C4040l) abstractC14971l).f8323l = this.f33103l;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof C16981l) && this.f33103l.equals(((C16981l) obj).f33103l);
+    }
+
+    public final int hashCode() {
+        return this.f33103l.hashCode();
+    }
+
+    @Override // defpackage.AbstractC12338l
+    public final AbstractC14971l loadAd() {
+        C4040l c4040l = new C4040l();
+        c4040l.f8323l = this.f33103l;
+        return c4040l;
+    }
+
+    public final String toString() {
+        return "FocusPropertiesElement(scope=" + this.f33103l + ")";
+    }
+}

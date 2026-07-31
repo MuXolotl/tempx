@@ -1,0 +1,30 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lٍؓؑ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes3.dex */
+public final class C1547l extends AbstractC3258l implements InterfaceC1367l {
+
+    /* JADX INFO: renamed from: lٍَؑ, reason: contains not printable characters */
+    public final C2000l f3834l;
+
+    public C1547l(C2000l c2000l) {
+        this.f3834l = c2000l;
+    }
+
+    @Override // defpackage.AbstractC8702l
+    /* JADX INFO: renamed from: else */
+    public final AbstractC2711l mo700else() {
+        return this.f3834l;
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        return this.f3834l.get();
+    }
+
+    @Override // defpackage.InterfaceC16956l
+    public final InterfaceC13922l subs() {
+        return this.f3834l;
+    }
+}

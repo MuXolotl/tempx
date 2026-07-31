@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SplashScreen" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="isLightTheme">?android:attr/isLightTheme</item>
+    </style>
+    <style name="VkxAppThemeBase" parent="@style/Theme.Material3.Dark">
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

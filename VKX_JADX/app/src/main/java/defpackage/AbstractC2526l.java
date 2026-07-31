@@ -1,0 +1,110 @@
+package defpackage;
+
+import java.util.Collections;
+import java.util.Set;
+
+/* JADX INFO: renamed from: lَٖؔ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes3.dex */
+public abstract class AbstractC2526l {
+    public static final C3498l adcel;
+    public static final C3498l admob;
+    public static final Set ads;
+    public static final C3498l amazon;
+    public static final C3498l billing;
+    public static final C3498l crashlytics;
+    public static final C3498l firebase;
+    public static final C3498l isPro;
+    public static final C3498l loadAd;
+    public static final C3498l metrica;
+    public static final C3498l mopub;
+    public static final C3498l purchase;
+    public static final C11155l remoteconfig;
+    public static final C3498l smaato;
+    public static final C3498l startapp;
+    public static final C3498l subs;
+    public static final Set subscription;
+    public static final Set tapsense;
+    public static final C3498l vip;
+    public static final C3498l yandex;
+
+    static {
+        C3498l c3498lPurchase = C3498l.purchase("getValue");
+        yandex = c3498lPurchase;
+        C3498l c3498lPurchase2 = C3498l.purchase("setValue");
+        loadAd = c3498lPurchase2;
+        C3498l c3498lPurchase3 = C3498l.purchase("provideDelegate");
+        crashlytics = c3498lPurchase3;
+        C3498l c3498lPurchase4 = C3498l.purchase("equals");
+        amazon = c3498lPurchase4;
+        C3498l.purchase("hashCode");
+        C3498l c3498lPurchase5 = C3498l.purchase("compareTo");
+        purchase = c3498lPurchase5;
+        C3498l c3498lPurchase6 = C3498l.purchase("contains");
+        billing = c3498lPurchase6;
+        mopub = C3498l.purchase("invoke");
+        admob = C3498l.purchase("iterator");
+        subs = C3498l.purchase("get");
+        C3498l c3498lPurchase7 = C3498l.purchase("set");
+        isPro = c3498lPurchase7;
+        firebase = C3498l.purchase("next");
+        smaato = C3498l.purchase("hasNext");
+        C3498l.purchase("of");
+        C3498l.purchase("toString");
+        remoteconfig = new C11155l("component\\d+");
+        C3498l c3498lPurchase8 = C3498l.purchase("and");
+        C3498l c3498lPurchase9 = C3498l.purchase("or");
+        C3498l c3498lPurchase10 = C3498l.purchase("xor");
+        C3498l c3498lPurchase11 = C3498l.purchase("inv");
+        C3498l c3498lPurchase12 = C3498l.purchase("shl");
+        C3498l c3498lPurchase13 = C3498l.purchase("shr");
+        C3498l c3498lPurchase14 = C3498l.purchase("ushr");
+        C3498l c3498lPurchase15 = C3498l.purchase("inc");
+        vip = c3498lPurchase15;
+        C3498l c3498lPurchase16 = C3498l.purchase("dec");
+        metrica = c3498lPurchase16;
+        C3498l c3498lPurchase17 = C3498l.purchase("plus");
+        C3498l c3498lPurchase18 = C3498l.purchase("minus");
+        C3498l c3498lPurchase19 = C3498l.purchase("not");
+        C3498l c3498lPurchase20 = C3498l.purchase("unaryMinus");
+        C3498l c3498lPurchase21 = C3498l.purchase("unaryPlus");
+        C3498l c3498lPurchase22 = C3498l.purchase("times");
+        C3498l c3498lPurchase23 = C3498l.purchase("div");
+        C3498l c3498lPurchase24 = C3498l.purchase("rem");
+        C3498l c3498lPurchase25 = C3498l.purchase("rangeTo");
+        startapp = c3498lPurchase25;
+        C3498l c3498lPurchase26 = C3498l.purchase("rangeUntil");
+        adcel = c3498lPurchase26;
+        C3498l c3498lPurchase27 = C3498l.purchase("timesAssign");
+        C3498l c3498lPurchase28 = C3498l.purchase("divAssign");
+        C3498l c3498lPurchase29 = C3498l.purchase("remAssign");
+        C3498l c3498lPurchase30 = C3498l.purchase("plusAssign");
+        C3498l c3498lPurchase31 = C3498l.purchase("minusAssign");
+        C3498l c3498lPurchase32 = C3498l.purchase("toDouble");
+        C3498l c3498lPurchase33 = C3498l.purchase("toFloat");
+        C3498l c3498lPurchase34 = C3498l.purchase("toLong");
+        C3498l c3498lPurchase35 = C3498l.purchase("toInt");
+        C3498l c3498lPurchase36 = C3498l.purchase("toChar");
+        C3498l c3498lPurchase37 = C3498l.purchase("toShort");
+        C3498l c3498lPurchase38 = C3498l.purchase("toByte");
+        C3498l c3498lPurchase39 = C3498l.purchase("toULong");
+        C3498l c3498lPurchase40 = C3498l.purchase("toUInt");
+        C3498l c3498lPurchase41 = C3498l.purchase("toUShort");
+        C3498l c3498lPurchase42 = C3498l.purchase("toUByte");
+        AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase15, c3498lPurchase16, c3498lPurchase21, c3498lPurchase20, c3498lPurchase19, c3498lPurchase11});
+        ads = AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase21, c3498lPurchase20, c3498lPurchase19, c3498lPurchase11});
+        Set setM2407import = AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase22, c3498lPurchase17, c3498lPurchase18, c3498lPurchase23, c3498lPurchase24, c3498lPurchase25, c3498lPurchase26});
+        subscription = setM2407import;
+        AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase22, c3498lPurchase17, c3498lPurchase18, c3498lPurchase23, c3498lPurchase24});
+        Set setM2407import2 = AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase8, c3498lPurchase9, c3498lPurchase10, c3498lPurchase11, c3498lPurchase12, c3498lPurchase13, c3498lPurchase14});
+        AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase8, c3498lPurchase9, c3498lPurchase10, c3498lPurchase12, c3498lPurchase13, c3498lPurchase14});
+        AbstractC9905l.mopub(AbstractC9905l.mopub(setM2407import, setM2407import2), AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase4, c3498lPurchase6, c3498lPurchase5}));
+        Set setM2407import3 = AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase27, c3498lPurchase28, c3498lPurchase29, c3498lPurchase30, c3498lPurchase31});
+        tapsense = setM2407import3;
+        AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase, c3498lPurchase2, c3498lPurchase3});
+        AbstractC9905l.mopub(Collections.singleton(c3498lPurchase7), setM2407import3);
+        AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase32, c3498lPurchase33, c3498lPurchase34, c3498lPurchase35, c3498lPurchase37, c3498lPurchase38, c3498lPurchase36});
+        AbstractC8669l.m2407import(new C3498l[]{c3498lPurchase39, c3498lPurchase40, c3498lPurchase41, c3498lPurchase42});
+        AbstractC8676l.remoteconfig(new C8195l(c3498lPurchase15, "++"), new C8195l(c3498lPurchase16, "--"), new C8195l(c3498lPurchase21, "+"), new C8195l(c3498lPurchase20, "-"), new C8195l(c3498lPurchase19, "!"), new C8195l(c3498lPurchase22, "*"), new C8195l(c3498lPurchase17, "+"), new C8195l(c3498lPurchase18, "-"), new C8195l(c3498lPurchase23, "/"), new C8195l(c3498lPurchase24, "%"), new C8195l(c3498lPurchase25, ".."), new C8195l(c3498lPurchase26, "..<"));
+    }
+}

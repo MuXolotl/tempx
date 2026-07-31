@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/ripple_bg"
+    android:layout_width="131dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/playlist_image"
+        android:layout_width="131dp"
+        android:layout_height="131dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?attr/text_primary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/playlist_title"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:drawablePadding="2dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="4dp"
+        app:drawableTint="?attr/text_secondary"
+        style="@style/TextStyle.ListItem"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="?attr/text_secondary"
+        android:id="@+id/playlist_author"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:maxLines="1"
+        style="@style/TextStyle.ListItem"/>
+</LinearLayout>

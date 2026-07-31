@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="AutoCacheConfig">
+        <item>Вимкнено</item>
+        <item>Кешувати тiльки мою музику</item>
+        <item>Кешувати усе</item>
+    </array>
+    <array name="date_ago_hrs">
+        <item>годину тому</item>
+        <item>дві години тому</item>
+        <item>три години тому</item>
+    </array>
+    <array name="date_shortmonths">
+        <item>Січ</item>
+        <item>Лют</item>
+        <item>Бер</item>
+        <item>Кві</item>
+        <item>Тра</item>
+        <item>Чер</item>
+        <item>Лип</item>
+        <item>Сер</item>
+        <item>Вер</item>
+        <item>Жов</item>
+        <item>Лис</item>
+        <item>Гру</item>
+    </array>
+</resources>

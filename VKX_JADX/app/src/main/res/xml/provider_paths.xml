@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="track_cache"
+        path="../app_cache_v2/"/>
+    <files-path
+        name="track_cache"
+        path="../app_cdcm_cache/"/>
+    <files-path
+        name="ota"
+        path="../app_ota/"/>
+    <files-path
+        name="ocshare"
+        path="../app_ocshare/"/>
+    <external-path
+        name="external_files"
+        path="."/>
+    <external-cache-path
+        name="ext_cache"
+        path="."/>
+    <cache-path
+        name="coil_images"
+        path="image_cache/"/>
+    <cache-path
+        name="cache"
+        path="."/>
+</paths>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_glance_recommendations_desc"
+    android:minWidth="60dp"
+    android:minHeight="60dp"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:configure="ua.itaysonlab.vkxreborn.playback.widget_glance.player_small.SmallPlayerGlanceConfigurationActivity"
+    android:previewImage="@drawable/vkx_widget_preview_context_small"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="configuration_optional|reconfigurable"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"/>

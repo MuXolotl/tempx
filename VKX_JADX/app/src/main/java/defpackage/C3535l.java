@@ -1,0 +1,24 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lؕٞٗ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C3535l {
+    public long loadAd;
+    public long yandex;
+
+    public C3535l() {
+        this.yandex = -9223372036854775807L;
+        this.loadAd = -9223372036854775807L;
+    }
+
+    public /* synthetic */ C3535l(long j, long j2) {
+        this.yandex = j;
+        this.loadAd = j2;
+    }
+
+    public C3535l(int i, long j, long j2) {
+        this.yandex = j;
+        this.loadAd = j2;
+    }
+}

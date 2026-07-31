@@ -1,0 +1,10 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lِٕۨ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes3.dex */
+public abstract class AbstractC15628l {
+    public static final C1004l yandex = new C1004l(C14728l.Signature());
+    public static final Object loadAd = new Object();
+    public static volatile C3557l crashlytics = null;
+}

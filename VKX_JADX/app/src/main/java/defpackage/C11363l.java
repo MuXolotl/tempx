@@ -1,0 +1,42 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lُٖ۟, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class C11363l implements InterfaceC13593l {
+    private static final InterfaceC18035l descriptor;
+    public static final C11363l yandex;
+
+    static {
+        C11363l c11363l = new C11363l();
+        yandex = c11363l;
+        C11474l c11474l = new C11474l("bruhcollective.itaysonlab.vkapi.objects.UserId", c11363l);
+        c11474l.smaato("value", false);
+        descriptor = c11474l;
+    }
+
+    @Override // defpackage.InterfaceC13593l
+    public final InterfaceC16588l[] amazon() {
+        return new InterfaceC16588l[]{C2010l.yandex};
+    }
+
+    @Override // defpackage.InterfaceC16588l
+    public final void crashlytics(InterfaceC17739l interfaceC17739l, Object obj) {
+        interfaceC17739l.isPro(descriptor).adcel(((C10877l) obj).yandex);
+    }
+
+    @Override // defpackage.InterfaceC16588l
+    public final Object loadAd(InterfaceC10726l interfaceC10726l) {
+        return new C10877l(interfaceC10726l.adcel(descriptor).license());
+    }
+
+    @Override // defpackage.InterfaceC16588l
+    public final InterfaceC18035l purchase() {
+        return descriptor;
+    }
+
+    @Override // defpackage.InterfaceC13593l
+    public final InterfaceC16588l[] yandex() {
+        return AbstractC3872l.yandex;
+    }
+}

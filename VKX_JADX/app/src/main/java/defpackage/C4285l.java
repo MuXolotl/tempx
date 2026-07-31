@@ -1,0 +1,12 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lٟؖؔ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes3.dex */
+public final class C4285l extends AbstractC3050l {
+    public final EnumC17708l subs;
+
+    public C4285l(EnumC17708l enumC17708l) {
+        this.subs = enumC17708l;
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="16dp"
+    android:width="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+    <path
+        android:fillColor="#fff"
+        android:pathData="M5.75,7.25a0.75,0.75 0,0 0,0 1.5h4.5a0.75,0.75 0,0 0,0 -1.5h-4.5Z"/>
+    <path
+        android:fillColor="#fff"
+        android:pathData="M8,15.5a7.5,7.5 0,1 0,0 -15,7.5 7.5,0 0,0 0,15ZM14,8A6,6 0,1 1,2 8a6,6 0,0 1,12 0Z"
+        android:fillType="evenOdd"/>
+</vector>

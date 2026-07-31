@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+    <com.google.android.material.button.MaterialButton
+        android:textColor="?attr/text_primary"
+        android:id="@+id/play_normal"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/mab_play"
+        android:maxLines="1"
+        android:layout_weight="1"
+        app:icon="@drawable/player_play"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="?attr/text_primary"
+        app:rippleColor="?attr/colorAccent"
+        app:strokeColor="?attr/scrim_color_lighter"
+        style="@style/MusicThemedActionBtn"/>
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.button.MaterialButton
+        android:textColor="?attr/text_primary"
+        android:id="@+id/play_shuffle"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/mab_shuffle"
+        android:maxLines="1"
+        android:layout_weight="1"
+        app:icon="@drawable/ic_shuffle_outline_24"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="?attr/text_primary"
+        app:rippleColor="?attr/colorAccent"
+        app:strokeColor="?attr/scrim_color_lighter"
+        style="@style/MusicThemedActionBtn"/>
+</LinearLayout>

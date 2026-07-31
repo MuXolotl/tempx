@@ -1,0 +1,17 @@
+package defpackage;
+
+import java.util.Map;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: renamed from: lؚۖۦ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public interface InterfaceC7448l extends InterfaceC12822l {
+    /* JADX INFO: renamed from: const */
+    InterfaceC17792l mo1114const(int i, int i2, Map map, Function1 function1, Function1 function2);
+
+    InterfaceC17792l isVip(int i, int i2, Map map, Function1 function1);
+
+    /* JADX INFO: renamed from: private */
+    InterfaceC17792l mo1115private(int i, int i2, C3006l c3006l, C3956l c3956l, Map map, C16441l c16441l);
+}

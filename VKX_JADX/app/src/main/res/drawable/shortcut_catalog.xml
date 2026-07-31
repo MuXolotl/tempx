@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/shortcut_bg">
+        <shape android:shape="oval">
+            <solid android:color="?android:attr/windowBackground"/>
+            <size
+                android:height="44dp"
+                android:width="44dp"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:id="@+id/shortcut_icon"
+        android:height="24dp"
+        android:width="24dp"
+        android:drawable="@drawable/ic_poll_square_outline_28"/>
+</layer-list>

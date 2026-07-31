@@ -1,0 +1,34 @@
+package defpackage;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+/* JADX INFO: renamed from: lٍؓ٘, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C9287l extends AbstractC0283l {
+
+    /* JADX INFO: renamed from: lؓۡؑ, reason: contains not printable characters */
+    public int f19083l;
+
+    /* JADX INFO: renamed from: lٍۣۢ, reason: contains not printable characters */
+    public /* synthetic */ Object f19084l;
+
+    /* JADX INFO: renamed from: lٍۥۗ, reason: contains not printable characters */
+    public C6922l f19085l;
+
+    /* JADX INFO: renamed from: lَٕ۠, reason: contains not printable characters */
+    public final /* synthetic */ C6922l f19086l;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C9287l(C6922l c6922l, AbstractC0283l abstractC0283l) {
+        super(abstractC0283l);
+        this.f19086l = c6922l;
+    }
+
+    @Override // defpackage.AbstractC12050l
+    public final Object Signature(Object obj) {
+        this.f19084l = obj;
+        this.f19083l |= RecyclerView.UNDEFINED_DURATION;
+        return this.f19086l.yandex(this);
+    }
+}

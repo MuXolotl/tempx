@@ -1,0 +1,14 @@
+package defpackage;
+
+/* JADX INFO: renamed from: lِؐؒ, reason: invalid class name and case insensitive filesystem */
+/* JADX INFO: compiled from: r8-map-id-7761d6fd52750600b6eeb3da7b88ede05d5cd0fcaae415e0ed7a2830c95bc1fb */
+/* JADX INFO: loaded from: classes.dex */
+public final class C11532l {
+    public final Object loadAd;
+    public final InterfaceC7042l yandex;
+
+    public C11532l(InterfaceC7042l interfaceC7042l, Object obj) {
+        this.yandex = interfaceC7042l;
+        this.loadAd = obj;
+    }
+}

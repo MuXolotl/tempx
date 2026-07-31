@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ripple_bg"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+    <FrameLayout
+        android:id="@+id/card"
+        android:background="@drawable/rounded_card_dock"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:backgroundTint="?attr/global_accent">
+        <ImageView
+            android:id="@+id/shuffle_btn"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:tint="?attr/global_accent"/>
+    </FrameLayout>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?attr/text_primary"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/shuffle_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shuffle"
+        android:maxLines="1"
+        android:layout_marginStart="16dp"/>
+</LinearLayout>

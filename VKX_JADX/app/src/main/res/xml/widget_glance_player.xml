@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/widget_glance_playing_desc"
+    android:minWidth="@dimen/glance_widget_np_width"
+    android:minHeight="@dimen/glance_widget_np_min_height"
+    android:updatePeriodMillis="21600000"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:previewImage="@drawable/vkx_widget_preview_player_small"
+    android:resizeMode="vertical|horizontal"
+    android:minResizeWidth="@dimen/glance_widget_np_min_width"
+    android:widgetCategory="home_screen"/>
