@@ -1,0 +1,117 @@
+[
+  {
+    "id": "vk_auto",
+    "name": "VK: Auto",
+    "gains": [-0.03, 0.1, -0.07, -0.05, 0.0, 0.1, 0.18, 0.08, 0.2]
+  },
+  {
+    "id": "vk_acoustic",
+    "name": "VK: Acoustic",
+    "gains": [0.4, 0.3, 0.2, 0.05, 0.1, 0.1, 0.2, 0.2, 0.05]
+  },
+  {
+    "id": "vk_bass_boost",
+    "name": "VK: Bass Boost",
+    "gains": [0.3, 0.2, 0.1, 0.07, 0.03, 0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "vk_bass_boost_plus",
+    "name": "VK: Bass Boost+",
+    "gains": [0.5, 0.35, 0.2, 0.15, 0.1, 0.05, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "vk_treble_boost",
+    "name": "VK: High Freq Boost",
+    "gains": [0.0, 0.0, 0.0, 0.0, 0.03, 0.05, 0.1, 0.2, 0.3]
+  },
+  {
+    "id": "vk_volume_boost",
+    "name": "VK: Boost Volume",
+    "gains": [0.27, 0.2, 0.07, -0.1, 0.0, 0.1, -0.12, 0.0, 0.1]
+  },
+  {
+    "id": "vk_vocal",
+    "name": "VK: Vocal",
+    "gains": [-0.2, -0.15, -0.05, 0.17, 0.2, 0.25, 0.17, 0.0, -0.07]
+  },
+  {
+    "id": "vk_deep_sound",
+    "name": "VK: Deep Sound",
+    "gains": [0.2, 0.07, 0.1, 0.12, 0.15, 0.2, 0.0, -0.1, -0.2]
+  },
+  {
+    "id": "vk_jazz",
+    "name": "VK: Jazz",
+    "gains": [0.15, 0.1, 0.0, -0.05, 0.03, 0.12, 0.0, 0.12, 0.22]
+  },
+  {
+    "id": "vk_classic",
+    "name": "VK: Classic",
+    "gains": [0.25, 0.2, 0.05, 0.0, -0.05, -0.1, 0.05, 0.1, 0.2]
+  },
+  {
+    "id": "vk_lounge",
+    "name": "VK: Lounge",
+    "gains": [-0.1, -0.08, 0.0, 0.15, 0.18, 0.08, -0.05, 0.0, 0.07]
+  },
+  {
+    "id": "vk_bass_cut",
+    "name": "VK: Bass Cut",
+    "gains": [-0.3, -0.25, -0.2, -0.15, -0.05, 0.0, 0.0, 0.0, 0.0]
+  },
+  {
+    "id": "vk_treble_minus",
+    "name": "VK: High Freq Minus",
+    "gains": [0.0, 0.0, 0.0, 0.0, -0.03, -0.05, -0.15, -0.2, -0.3]
+  },
+  {
+    "id": "vk_small_speakers",
+    "name": "VK: Small Speakers",
+    "gains": [0.2, 0.17, 0.15, 0.05, 0.03, 0.0, 0.1, 0.15, 0.2]
+  },
+  {
+    "id": "vk_headphones",
+    "name": "VK: Headphones",
+    "gains": [0.07, 0.03, 0.0, 0.7, 0.0, 0.0, 0.12, 0.1, 0.18]
+  },
+  {
+    "id": "vk_pop",
+    "name": "VK: Pop",
+    "gains": [-0.08, 0.0, 0.03, 0.18, 0.2, 0.22, 0.04, 0.0, -0.1]
+  },
+  {
+    "id": "vk_speech",
+    "name": "VK: Speech",
+    "gains": [-0.07, 0.0, 0.05, 0.1, 0.12, 0.3, 0.25, 0.1, 0.0]
+  },
+  {
+    "id": "vk_rnb",
+    "name": "VK: R&B",
+    "gains": [0.5, 0.4, 0.21, -0.1, -0.12, -0.15, 0.15, 0.17, 0.19]
+  },
+  {
+    "id": "vk_rock",
+    "name": "VK: Rock",
+    "gains": [0.25, 0.2, 0.1, 0.0, -0.05, -0.1, 0.03, 0.12, 0.25]
+  },
+  {
+    "id": "vk_dance",
+    "name": "VK: Dance",
+    "gains": [0.5, 0.4, 0.2, 0.05, 0.1, 0.15, 0.22, 0.1, 0.0]
+  },
+  {
+    "id": "vk_piano",
+    "name": "VK: Piano",
+    "gains": [0.1, 0.07, 0.0, 0.18, 0.07, 0.03, 0.19, 0.15, 0.15]
+  },
+  {
+    "id": "vk_hiphop",
+    "name": "VK: Hip-Hop",
+    "gains": [0.25, 0.2, 0.07, 0.0, -0.05, -0.1, 0.07, 0.12, 0.2]
+  },
+  {
+    "id": "vk_electronic",
+    "name": "VK: Electronic",
+    "gains": [0.15, 0.07, 0.0, -0.1, -0.12, -0.15, 0.0, 0.15, 0.25]
+  }
+]
